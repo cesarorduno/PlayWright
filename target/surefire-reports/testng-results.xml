@@ -2,24 +2,24 @@
 <testng-results ignored="4" total="12" passed="5" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-07T03:25:58Z" name="Command line suite" finished-at="2023-03-07T03:26:07Z" duration-ms="8656">
+  <suite started-at="2023-03-07T17:27:43Z" name="Command line suite" finished-at="2023-03-07T17:27:52Z" duration-ms="8346">
     <groups>
     </groups>
-    <test started-at="2023-03-07T03:25:58Z" name="Command line test" finished-at="2023-03-07T03:26:07Z" duration-ms="8656">
+    <test started-at="2023-03-07T17:27:43Z" name="Command line test" finished-at="2023-03-07T17:27:52Z" duration-ms="8346">
       <class name="com.qa.opencart.tests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T03:25:58Z" name="setup" finished-at="2023-03-07T03:26:05Z" duration-ms="6901" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T17:27:43Z" name="setup" finished-at="2023-03-07T17:27:50Z" duration-ms="6539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T03:26:05Z" name="homePageTitleTest" finished-at="2023-03-07T03:26:05Z" duration-ms="9" status="PASS">
+        <test-method signature="homePageTitleTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T17:27:50Z" name="homePageTitleTest" finished-at="2023-03-07T17:27:50Z" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTitleTest -->
-        <test-method signature="homePageURLTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T03:26:05Z" name="homePageURLTest" finished-at="2023-03-07T03:26:05Z" duration-ms="0" status="PASS">
+        <test-method signature="homePageURLTest()[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T17:27:50Z" name="homePageURLTest" finished-at="2023-03-07T17:27:50Z" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageURLTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T03:26:05Z" name="searchTest" data-provider="getProductData" finished-at="2023-03-07T03:26:06Z" duration-ms="501" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T17:27:50Z" name="searchTest" data-provider="getProductData" finished-at="2023-03-07T17:27:50Z" duration-ms="523" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T03:26:06Z" name="searchTest" data-provider="getProductData" finished-at="2023-03-07T03:26:06Z" duration-ms="508" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T17:27:50Z" name="searchTest" data-provider="getProductData" finished-at="2023-03-07T17:27:51Z" duration-ms="527" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,7 +41,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T03:26:06Z" name="searchTest" data-provider="getProductData" finished-at="2023-03-07T03:26:07Z" duration-ms="488" status="PASS">
+        <test-method signature="searchTest(java.lang.String)[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T17:27:51Z" name="searchTest" data-provider="getProductData" finished-at="2023-03-07T17:27:51Z" duration-ms="468" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,13 +52,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T03:26:07Z" name="tearDown" finished-at="2023-03-07T03:26:07Z" duration-ms="223" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.HomePageTest@30b8a058]" started-at="2023-03-07T17:27:51Z" name="tearDown" finished-at="2023-03-07T17:27:52Z" duration-ms="258" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.qa.opencart.tests.HomePageTest -->
       <class name="com.qa.opencart.tests.LoginPageTest">
-        <test-method signature="loginPageNavigation()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@7494e528]" started-at="2023-03-07T03:26:07Z" name="loginPageNavigation" finished-at="2023-03-07T03:26:07Z" duration-ms="1" status="FAIL">
+        <test-method signature="loginPageNavigation()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@7494e528]" started-at="2023-03-07T17:27:51Z" name="loginPageNavigation" finished-at="2023-03-07T17:27:51Z" duration-ms="1" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -104,7 +104,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageNavigation -->
-        <test-method signature="forgotPPwsLinkExistTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@7494e528]" started-at="2023-03-07T03:26:07Z" name="forgotPPwsLinkExistTest" finished-at="2023-03-07T03:26:07Z" duration-ms="1" status="FAIL">
+        <test-method signature="forgotPPwsLinkExistTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@7494e528]" started-at="2023-03-07T17:27:51Z" name="forgotPPwsLinkExistTest" finished-at="2023-03-07T17:27:51Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -150,7 +150,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPPwsLinkExistTest -->
-        <test-method signature="appLoginTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@7494e528]" started-at="2023-03-07T03:26:07Z" name="appLoginTest" finished-at="2023-03-07T03:26:07Z" duration-ms="1" status="FAIL">
+        <test-method signature="appLoginTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@7494e528]" started-at="2023-03-07T17:27:51Z" name="appLoginTest" finished-at="2023-03-07T17:27:51Z" duration-ms="0" status="FAIL">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
