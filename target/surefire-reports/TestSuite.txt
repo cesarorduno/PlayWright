@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 8.906 sec <<< FAILURE!
+loginPageNavigation(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.opencart.tests.LoginPageTest.loginPageNavigation(LoginPageTest.java:13)
+
+forgotPPwsLinkExistTest(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.opencart.tests.LoginPageTest.forgotPPwsLinkExistTest(LoginPageTest.java:21)
+
+appLoginTest(com.qa.opencart.tests.LoginPageTest)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at com.qa.opencart.tests.LoginPageTest.appLoginTest(LoginPageTest.java:26)
+
