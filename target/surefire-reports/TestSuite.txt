@@ -1,42 +1,42 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 79.183 sec <<< FAILURE! - in TestSuite
-setup(com.qa.opencart.tests.HomePageTest)  Time elapsed: 79.056 sec  <<< FAILURE!
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 9, Time elapsed: 79.295 sec <<< FAILURE! - in TestSuite
+setup(com.qa.opencart.tests.HomePageTest)  Time elapsed: 79.153 sec  <<< FAILURE!
 com.microsoft.playwright.PlaywrightException: 
 Error {
   message='WebSocket error: connect ETIMEDOUT 172.18.0.5:4444
 =========================== logs ===========================
 <selenium> connecting to http://localhost:4444/wd/hub/
-<selenium> connected to sessionId=99f143cd7f13e571b848aab53de7e236
+<selenium> connected to sessionId=dc914ab1fc63230a8208364a2f724118
 <selenium> using selenium v4
-<selenium> retrieved endpoint ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp for sessionId=99f143cd7f13e571b848aab53de7e236
-<ws connecting> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp
+<selenium> retrieved endpoint ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp for sessionId=dc914ab1fc63230a8208364a2f724118
+<ws connecting> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp
 <ws error> [object Object]
-<ws connect error> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp connect ETIMEDOUT 172.18.0.5:4444
-<ws disconnected> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp code=1006 reason=
-<selenium> disconnecting from sessionId=99f143cd7f13e571b848aab53de7e236
-<selenium> disconnected from sessionId=99f143cd7f13e571b848aab53de7e236
+<ws connect error> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp connect ETIMEDOUT 172.18.0.5:4444
+<ws disconnected> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp code=1006 reason=
+<selenium> disconnecting from sessionId=dc914ab1fc63230a8208364a2f724118
+<selenium> disconnected from sessionId=dc914ab1fc63230a8208364a2f724118
 ============================================================
   name='Error
   stack='Error: WebSocket error: connect ETIMEDOUT 172.18.0.5:4444
 =========================== logs ===========================
 <selenium> connecting to http://localhost:4444/wd/hub/
-<selenium> connected to sessionId=99f143cd7f13e571b848aab53de7e236
+<selenium> connected to sessionId=dc914ab1fc63230a8208364a2f724118
 <selenium> using selenium v4
-<selenium> retrieved endpoint ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp for sessionId=99f143cd7f13e571b848aab53de7e236
-<ws connecting> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp
+<selenium> retrieved endpoint ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp for sessionId=dc914ab1fc63230a8208364a2f724118
+<ws connecting> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp
 <ws error> [object Object]
-<ws connect error> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp connect ETIMEDOUT 172.18.0.5:4444
-<ws disconnected> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp code=1006 reason=
-<selenium> disconnecting from sessionId=99f143cd7f13e571b848aab53de7e236
-<selenium> disconnected from sessionId=99f143cd7f13e571b848aab53de7e236
+<ws connect error> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp connect ETIMEDOUT 172.18.0.5:4444
+<ws disconnected> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp code=1006 reason=
+<selenium> disconnecting from sessionId=dc914ab1fc63230a8208364a2f724118
+<selenium> disconnected from sessionId=dc914ab1fc63230a8208364a2f724118
 ============================================================
-    at X.<anonymous> (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-7035418253109300097/package/lib/server/transport.js:44:16)
-    at X.i (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-7035418253109300097/package/lib/utilsBundleImpl.js:38:24151)
+    at X.<anonymous> (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-12037138118452180624/package/lib/server/transport.js:44:16)
+    at X.i (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-12037138118452180624/package/lib/utilsBundleImpl.js:38:24151)
     at X.emit (node:events:539:35)
-    at fo (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-7035418253109300097/package/lib/utilsBundleImpl.js:38:36211)
-    at ClientRequest.<anonymous> (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-7035418253109300097/package/lib/utilsBundleImpl.js:38:34667)
+    at fo (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-12037138118452180624/package/lib/utilsBundleImpl.js:38:36211)
+    at ClientRequest.<anonymous> (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-12037138118452180624/package/lib/utilsBundleImpl.js:38:34667)
     at ClientRequest.emit (node:events:527:28)
     at Socket.socketErrorListener (node:_http_client:454:9)
     at Socket.emit (node:events:527:28)
@@ -48,35 +48,35 @@ Error {
   message='WebSocket error: connect ETIMEDOUT 172.18.0.5:4444
 =========================== logs ===========================
 <selenium> connecting to http://localhost:4444/wd/hub/
-<selenium> connected to sessionId=99f143cd7f13e571b848aab53de7e236
+<selenium> connected to sessionId=dc914ab1fc63230a8208364a2f724118
 <selenium> using selenium v4
-<selenium> retrieved endpoint ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp for sessionId=99f143cd7f13e571b848aab53de7e236
-<ws connecting> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp
+<selenium> retrieved endpoint ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp for sessionId=dc914ab1fc63230a8208364a2f724118
+<ws connecting> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp
 <ws error> [object Object]
-<ws connect error> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp connect ETIMEDOUT 172.18.0.5:4444
-<ws disconnected> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp code=1006 reason=
-<selenium> disconnecting from sessionId=99f143cd7f13e571b848aab53de7e236
-<selenium> disconnected from sessionId=99f143cd7f13e571b848aab53de7e236
+<ws connect error> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp connect ETIMEDOUT 172.18.0.5:4444
+<ws disconnected> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp code=1006 reason=
+<selenium> disconnecting from sessionId=dc914ab1fc63230a8208364a2f724118
+<selenium> disconnected from sessionId=dc914ab1fc63230a8208364a2f724118
 ============================================================
   name='Error
   stack='Error: WebSocket error: connect ETIMEDOUT 172.18.0.5:4444
 =========================== logs ===========================
 <selenium> connecting to http://localhost:4444/wd/hub/
-<selenium> connected to sessionId=99f143cd7f13e571b848aab53de7e236
+<selenium> connected to sessionId=dc914ab1fc63230a8208364a2f724118
 <selenium> using selenium v4
-<selenium> retrieved endpoint ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp for sessionId=99f143cd7f13e571b848aab53de7e236
-<ws connecting> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp
+<selenium> retrieved endpoint ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp for sessionId=dc914ab1fc63230a8208364a2f724118
+<ws connecting> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp
 <ws error> [object Object]
-<ws connect error> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp connect ETIMEDOUT 172.18.0.5:4444
-<ws disconnected> ws://172.18.0.5:4444/session/99f143cd7f13e571b848aab53de7e236/se/cdp code=1006 reason=
-<selenium> disconnecting from sessionId=99f143cd7f13e571b848aab53de7e236
-<selenium> disconnected from sessionId=99f143cd7f13e571b848aab53de7e236
+<ws connect error> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp connect ETIMEDOUT 172.18.0.5:4444
+<ws disconnected> ws://172.18.0.5:4444/session/dc914ab1fc63230a8208364a2f724118/se/cdp code=1006 reason=
+<selenium> disconnecting from sessionId=dc914ab1fc63230a8208364a2f724118
+<selenium> disconnected from sessionId=dc914ab1fc63230a8208364a2f724118
 ============================================================
-    at X.<anonymous> (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-7035418253109300097/package/lib/server/transport.js:44:16)
-    at X.i (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-7035418253109300097/package/lib/utilsBundleImpl.js:38:24151)
+    at X.<anonymous> (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-12037138118452180624/package/lib/server/transport.js:44:16)
+    at X.i (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-12037138118452180624/package/lib/utilsBundleImpl.js:38:24151)
     at X.emit (node:events:539:35)
-    at fo (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-7035418253109300097/package/lib/utilsBundleImpl.js:38:36211)
-    at ClientRequest.<anonymous> (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-7035418253109300097/package/lib/utilsBundleImpl.js:38:34667)
+    at fo (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-12037138118452180624/package/lib/utilsBundleImpl.js:38:36211)
+    at ClientRequest.<anonymous> (/private/var/folders/qr/qn4_v81x63n6kwrsj0rv37b40000gp/T/playwright-java-12037138118452180624/package/lib/utilsBundleImpl.js:38:34667)
     at ClientRequest.emit (node:events:527:28)
     at Socket.socketErrorListener (node:_http_client:454:9)
     at Socket.emit (node:events:527:28)
