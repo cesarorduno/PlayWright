@@ -3,6 +3,15 @@
 <suite name="Failed suite [Command line suite]" verbose="0">
   <test thread-count="5" name="Command line test(failed)" verbose="0">
     <classes>
+      <class name="com.qa.opencart.tests.HomePageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="searchTest"/>
+          <include name="homePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="homePageURLTest"/>
+        </methods>
+      </class> <!-- com.qa.opencart.tests.HomePageTest -->
       <class name="com.qa.opencart.tests.LoginPageTest">
         <methods>
           <include name="appLoginTest"/>
